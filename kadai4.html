@@ -36,7 +36,9 @@
                     console.log("商品は以下の" + Item.number + "種類です。");
 
                     // 配列の内容を項目毎に出力
-                    // 課題4-1. ここにコードを書く
+                      for(let i = 0; i< items.length; i++) {
+                const item = items[i];
+                console.log("id:"　+ item.id + ",name:" + item.name + ","　+ item.price + "円,残り" + item.stock　+ "個")　;// 課題4-1. ここにコードを書く
                     console.log(""); // 空行の出力
                 }
                 
